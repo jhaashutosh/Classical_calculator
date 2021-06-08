@@ -1,24 +1,44 @@
 #calculator
 {
     width: 400px;;
-    height: 680px;
+    height: 630px;
     border-radius: 5%;
-    border:solid 4px aqua;
+    border:solid 4px rgb(0, 230, 230);
     margin: auto;
-    padding: 10px;
+    padding: 10px;  
     text-align: center;
 }
 #screen
 {
     border:solid 2px black;
     height:100px;
-    border-radius:5% ;
+    width:345px;
+    border-radius:5%;
+    font-size:40px;
+    text-align: right;
+    padding: 6% 3%;
 }
 .row1
 {
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:auto;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
+.row2 {
+    font-size: 3.5em;
+}
+.number {
+    font-size: 1em;
+}
+
+#calculator {
+    position: relative;
+}
+
+.container1 {
+    margin: 17px 21px;
+}
+
+.container1 table td {
+    text-align:center;
+}
